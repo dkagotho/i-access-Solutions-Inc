@@ -1,0 +1,68 @@
+.contact-container {
+  background-color: rgb(137, 105, 226);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  /* object-fit: contain; */
+}
+
+.contact-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -700px;
+}
+
+.contact-container2 > h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-top: -600px;
+  padding-left: 700px;
+  margin-bottom: 215px;
+}
+
+.contact-container > p {
+  margin-top: 100px;
+  padding-left: 60px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.ptag {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 99px;
+}
+
+.social-icons-items {
+  display: flex;
+  margin-top: -100px;
+  padding-left: 720px;
+  padding-bottom: 166px;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .contact-container > p {
+    font-size: 30px;
+  }
+}
